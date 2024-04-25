@@ -301,10 +301,10 @@ input[type="text"] {
 
 .visually-hidden {
   /* Hides the text for the submit button while making it accessible to screen readers */
-  display: 'inline-block';
-  position: 'absolute';
-  overflow: 'hidden';
-  clip: 'rect(0 0 0 0)';
+  display: inline-block;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
   height: 1px;
   width: 1px;
   margin: -1px;
