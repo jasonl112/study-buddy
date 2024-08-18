@@ -15,7 +15,7 @@ On a Mac:
 `source openai-env/bin/activate`
 
 On Windows:
-`openai-env\Scripts\activate`
+`source openai-env/Scripts/activate`
 
 <br>
 Once the virtual environment is activated, the beginning of your terminal prompt should display (openai-env).
@@ -23,12 +23,12 @@ Once the virtual environment is activated, the beginning of your terminal prompt
 <br>
 Install the OpenAI API library by running (in both a Mac and Windows):
 
-`pip install --upgrade openai` 
+`pip install --upgrade openai`
 
 You'll see an openai-env folder has been added to the directory with all of the installed dependencies.
 
 <br>
-Install the Flask library: 
+Install the Flask library:
 
 `pip install flask`
 
@@ -46,9 +46,6 @@ To stop the run, click control + C.
 Then hard refresh the page. When making changes to your Python, HTML, or JavaScript code (and not using debugger) you'll need to stop the run after each change.
 
 <br>
-When finished, quit the run by clicking control + C and close the virtual environment by running: 
+When finished, quit the run by clicking control + C and close the virtual environment by running:
 
 `deactivate`
-
-
-
