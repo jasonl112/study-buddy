@@ -42,6 +42,11 @@ With a debugger:
 `flask run --debug`
 
 <br>
+
+The app will run at: http://127.0.0.1:5000/
+
+<br>
+
 To stop the run, click control + C.
 Then hard refresh the page. When making changes to your Python, HTML, or JavaScript code (and not using debugger) you'll need to stop the run after each change.
 
